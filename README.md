@@ -41,7 +41,7 @@ Si estas líneas no aparecen en dichos ficheros, ejecutamos:
 
 Y recargamos los ficheros de configuración de nuestra shell ejecutando `source .bashrc` o `source .zshrc`. (O también podemos cerrar y abrir de nuevo la terminal).  
 
-Finalmente, si todo ha ido bien comprobamos que nvm está correctamente instalado ejecutando `nvm --version`.
+Finalmente, si todo ha ido bien, comprobamos que nvm está correctamente instalado ejecutando `nvm --version`.
 
 <div align="center">
 
@@ -50,6 +50,7 @@ Finalmente, si todo ha ido bien comprobamos que nvm está correctamente instalad
 </div>
 
 Lo bueno de nvm es que crea un directorio oculto en tu `/home`, evitandote así hacer todos los pasos del `npm config set prefix` y evitamos problemas con `sudo` y el directorio `/usr`.  
+
 Cuando instalemos nvm se nos creará un directorio oculto `/home/<username>/.nvm` en el cual se hallarán todas las cosas necesarias para su funcionamiento. Cuando instalemos node, sus distintas versiones se instalarán en `home/<username>/.nvm/versions/node/`. 
 
 ## Uso
