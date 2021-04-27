@@ -6,7 +6,8 @@ El objetivo de este fichero es mostrar la utilidad de nvm así como resumir los 
 nvm es un gestor de versiones de nodejs. Te permite tener instaladas distintas versiones de node en tu equipo, además te permite cambiar entre ellas en cualquier momento.
 
 ## Instalación 
-**Importante**: nvm solo está disponible para linux y mac (según su repositorio oficial). Existen alternativas para windows pero no de los mismos creadores.  
+**Importante**: nvm solo está disponible para linux y mac (según su repositorio oficial). Existen alternativas para windows pero no de los mismos creadores.
+**Update 27/04/21**: lo he probado y nvm funciona en WSL2. Para instalarlo es seguir los mismos pasos que en linux/mac. 
   
 Para instalar nvm puedes seguir los pasos del [repositorio oficial](https://github.com/nvm-sh/nvm). La última versión a fecha de 11-02-2021 es la `0.37.2`.
 
